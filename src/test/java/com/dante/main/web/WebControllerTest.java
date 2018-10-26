@@ -17,12 +17,12 @@ public class WebControllerTest {
 	@Autowired
 	private TestRestTemplate restTemplate;
 	
-	@Test
+	/*@Test
 	public void view_main(){
 		//when 
 		String body = this.restTemplate.getForObject("/", String.class);
 		
 		//then
 		assertThat(body).contains("스프링부트로 시작하는 웹 서비스");
-	}
+	}*/
 }
