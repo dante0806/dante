@@ -26,8 +26,8 @@ public class PostsService {
 	@Transactional(readOnly = true)
 	public List<PostsMainResponseDto> findAllDesc(){
 		return postsRepository.findAlldesc()
-				.map(PostsMainResponseDto::new)	//¶÷´Ù½Ä
-			//	.map(posts -> new PostsMainResponseDto(posts)) ^^À§¿Í °°Àº ÄÚµå
+				.map(PostsMainResponseDto::new)	//ëŒë‹¤ì‹
+			//	.map(posts -> new PostsMainResponseDto(posts)) ^^ìœ„ì™€ ë™ì¼í•œ ê¸°ëŠ¥ì˜ ì½”ë“œ
 				.collect(Collectors.toList());
 	}
 }

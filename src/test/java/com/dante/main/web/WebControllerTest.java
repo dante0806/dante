@@ -17,12 +17,12 @@ public class WebControllerTest {
 	@Autowired
 	private TestRestTemplate restTemplate;
 	
-	/*@Test
+	@Test
 	public void view_main(){
 		//when 
 		String body = this.restTemplate.getForObject("/", String.class);
 		
 		//then
-		assertThat(body).contains("½ºÇÁ¸µºÎÆ®·Î ½ÃÀÛÇÏ´Â À¥ ¼­ºñ½º");
-	}*/
+		assertThat(body).contains("ìŠ¤í”„ë§ë¶€íŠ¸ë¡œ ì‹œì‘í•˜ëŠ” ì›¹ ì„œë¹„ìŠ¤");
+	}
 }

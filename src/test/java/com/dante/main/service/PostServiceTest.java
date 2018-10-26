@@ -34,8 +34,8 @@ public class PostServiceTest {
 		//given
 		PostsSaveRequestDto dto = PostsSaveRequestDto.builder()
 				.author("dante0806@naver.com")
-				.content("Å×½ºÆ® ÄÁÅÙÆ®")
-				.title("Å×½ºÆ® Å¸ÀÌÆ²")
+				.content("í…ŒìŠ¤íŠ¸ ë‚´ìš©")
+				.title("ì œëª©")
 				.build();
 		
 		//when

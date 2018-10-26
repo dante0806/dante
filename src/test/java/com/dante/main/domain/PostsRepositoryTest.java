@@ -27,8 +27,8 @@ public class PostsRepositoryTest {
 	@After
 	public void cleanup(){
 		/** 
-    	ÀÌÈÄ Å×½ºÆ® ÄÚµå¿¡ ¿µÇâÀ» ³¢Ä¡Áö ¾Ê±â À§ÇØ 
-    	Å×½ºÆ® ¸Ş¼Òµå°¡ ³¡³¯¶§ ¸¶´Ù respository ÀüÃ¼ ºñ¿ì´Â ÄÚµå
+    	ì´í›„ í…ŒìŠ¤íŠ¸ ì½”ë“œì— ì˜í–¥ì„ ë¼ì¹˜ì§€ ì•Šê¸° ìœ„í•´ 
+    	í…ŒìŠ¤íŠ¸ ë©”ì†Œë“œê°€ ëë‚ ë•Œ ë§ˆë‹¤ respository ì „ì²´ ë¹„ìš°ëŠ” ì½”ë“œ
         **/
 		postsRepository.deleteAll();
 	}
@@ -37,8 +37,8 @@ public class PostsRepositoryTest {
 	public void getBoardList(){
 		//given 
 		postsRepository.save(Posts.builder()
-				.title("Á¦¸ñ")
-				.content("³»¿ë")
+				.title("ì œëª©")
+				.content("í…ŒìŠ¤íŠ¸ ë‚´ìš©")
 				.author("dante0806@naver.com")
 				.build());
 		
@@ -47,8 +47,8 @@ public class PostsRepositoryTest {
 		
 		//then
 		Posts posts = postsList.get(0);
-		assertThat(posts.getTitle(), is("Á¦¸ñ"));
-		assertThat(posts.getContent(), is("³»¿ë"));
+		assertThat(posts.getTitle(), is("ì œëª©"));
+		assertThat(posts.getContent(), is("í…ŒìŠ¤íŠ¸ ë‚´ìš©"));
 	}
 	
 	@Test
@@ -56,8 +56,8 @@ public class PostsRepositoryTest {
 		//given
 		LocalDateTime now = LocalDateTime.now();
 		postsRepository.save(Posts.builder()
-				.title("Á¦¸ñ")
-				.content("³»¿ë")
+				.title("ì œëª©")
+				.content("í…ŒìŠ¤íŠ¸ ë‚´ìš©")
 				.author("dante0806@naver.com")
 				.build());
 		//when
