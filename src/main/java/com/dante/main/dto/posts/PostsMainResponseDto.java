@@ -1,4 +1,4 @@
-package com.dante.main.dto;
+package com.dante.main.dto.posts;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

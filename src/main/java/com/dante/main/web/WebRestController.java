@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dante.main.domain.posts.PostsRepository;
-import com.dante.main.domain.posts.PostsSaveRequestDto;
+import com.dante.main.dto.posts.PostsSaveRequestDto;
 import com.dante.main.service.PostsService;
 
 import lombok.AllArgsConstructor;

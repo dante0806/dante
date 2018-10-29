@@ -11,7 +11,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.dante.main.domain.posts.Posts;
 import com.dante.main.domain.posts.PostsRepository;
-import com.dante.main.domain.posts.PostsSaveRequestDto;
+import com.dante.main.dto.posts.PostsSaveRequestDto;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

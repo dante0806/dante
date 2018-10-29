@@ -1,4 +1,6 @@
-package com.dante.main.domain.posts;
+package com.dante.main.dto.posts;
+
+import com.dante.main.domain.posts.Posts;
 
 import lombok.Builder;
 import lombok.Getter;

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.dante.main.domain.posts.PostsRepository;
-import com.dante.main.domain.posts.PostsSaveRequestDto;
-import com.dante.main.dto.PostsMainResponseDto;
+import com.dante.main.dto.posts.PostsMainResponseDto;
+import com.dante.main.dto.posts.PostsSaveRequestDto;
 
 import lombok.AllArgsConstructor;
 
